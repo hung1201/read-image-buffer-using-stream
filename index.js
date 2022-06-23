@@ -1,3 +1,5 @@
+const { Readable } = require("stream");
+
 module.exports.getUserImage = async (req, res) => {
   const { user_id: userId } = req.params;
 
